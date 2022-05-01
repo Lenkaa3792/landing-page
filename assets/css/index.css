@@ -1,4 +1,4 @@
-body{
+ody{
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
     margin-bottom: 40px;
 }
-.navigation{
+.navbar-menu{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,12 +39,16 @@ li:hover{
     font-weight: 400;
     transform: scale(1.1 1.5s ease);
 }
+li:hover{
+    font-weight: 400;
+    transform: scale(1.1 1.5s ease);
+}
 .top-button{
     display: flex;
    
 }
-.enroll{
-    margin-left: 25px;
+.enroll-button{
+    margin-left: 20px;
     border: none;
     border-radius: 5px;
     padding: 8px 20px;
@@ -64,12 +68,12 @@ li:hover{
     color: #EC4067;
 
 }
-
+/* ABOUT SECTION */
 .about{
     display: flex;
     align-items: center;
 }
-.information{
+.info-container{
     flex: 1;
     
 }
@@ -161,7 +165,7 @@ p.bottom{
     font-size: 22px;
 }
 .section-span{
-    background-color: #F5F5F7;
+    background-color: #df2020;
 }
 
 .submit-button{
@@ -182,7 +186,7 @@ p.bottom{
 }
 
 
-
+/* STORIES SECTION */
 
 .stories-info{
     display: flex;
@@ -217,7 +221,7 @@ p.bottom{
     font-weight: 300;
 }
 /* BOARD SECTION */
-.board_container{
+.board-container{
     position: relative;
 }
 .board-top-span{
@@ -241,13 +245,13 @@ p.bottom{
     font-weight: 300;
 }
 /* GRADUATION SECTION */
-.graduation_container{
+.graduation-container{
     position: relative;
 }
 /* MENTOR SECTION */
-.mentors{
+.mentors-section{
     margin-top: 50px;
-    
+    overflow: hidden;
     
 }
 .mentors-section .section-top-text{
@@ -266,31 +270,32 @@ p.bottom{
     
 }
 
-.mentor_title{
+.mentor-info-title{
     /* display: flex; */
     position: relative;
 }
-.mentor_img{
+.mentor-img{
     width: 100%;
     object-fit: cover;
     border-radius: 2px;
 }
-.mentor_name{
+.mentor-name{
     color:white;
     position: absolute;
     bottom: 0;
     left: 0;
 }
-.mentor_role{
+.mentor-role{
     color: #EC4067;
 }
-.mentor_button{
+.mentor-button{
     background-color: #EC4067;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border: none;
     border-radius: 5px;
-    font-size: 10px;
+    cursor: pointer;
+    font-size: 12px;
     font-weight: 300;
     margin:10px 0;
 
@@ -307,16 +312,16 @@ p.bottom{
     font-size: 14px;
 }
 
-
-.projectsection{
-    margin-top: 40px;
+/* PROJECT SECTION */
+.project-section{
+    margin-top: 50px;
     overflow: hidden;
 }
-.projectcontainer{
+.project-container{
     display: flex;
     align-items: center;
 }
-.projectcontainer .section-top-text{
+.project-container .section-top-text{
     vertical-align: baseline;
 }
 .project-wrapper{
@@ -327,26 +332,26 @@ p.bottom{
 .project-span{
     font-weight: 600;
 }
-.projecttitle{
+.project-title{
     color:#EC4067;
     font-weight: 300;
     font-size: 30px;
 }
-.projecttext{
+.project-text{
     font-weight: 200;
     
 }
 
-.projectimg{
-    width:80%;
+.project-img{
+    width:100%;
     object-fit: cover;
 }
 
-
-.contactcontainer{
+/* CONTACT SECTION */
+.contact-container{
     margin-top: 80px;
 }
-.contacttitle{
+.contact-title{
     color: #EC4067;
     font-weight: 500;
 }
@@ -355,16 +360,16 @@ p.bottom{
     display: flex;
  
 }
-.contactmenu{
+.contact-menu{
     display: flex;
     align-items: center;
 }
-.contactlink{
+.contact-link{
     text-decoration: none;
     color: #EC4067;
 }
 
-
+/* FOOTER SECTION */
 .footer{
     margin-top: 40px;
     background-color: #F5F5F7;
@@ -373,11 +378,11 @@ p.bottom{
     align-items: center;
     justify-content: center;
 }
-.footertext{
-    font-weight: 200;
+.footer-text{
+    font-weight: 300;
 }
 a{
-    
+    text-decoration:none !important;
     color: black;
     
 }
