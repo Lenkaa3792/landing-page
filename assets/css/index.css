@@ -360,7 +360,7 @@ p.bottom{
     display: flex;
     align-items: center;
 }
-.contact-link{
+.contact_link{
     text-decoration: none;
     color: #EC4067;
 }
