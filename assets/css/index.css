@@ -308,16 +308,16 @@ p.bottom{
     font-size: 14px;
 }
 
-/* PROJECT SECTION */
-.project-section{
-    margin-top: 50px;
+
+.projectsection{
+    margin-top: 40px;
     overflow: hidden;
 }
-.project-container{
+.projectcontainer{
     display: flex;
     align-items: center;
 }
-.project-container .section-top-text{
+.projectcontainer .section-top-text{
     vertical-align: baseline;
 }
 .project-wrapper{
@@ -328,26 +328,26 @@ p.bottom{
 .project-span{
     font-weight: 600;
 }
-.project-title{
+.projecttitle{
     color:#EC4067;
     font-weight: 300;
     font-size: 30px;
 }
-.project-text{
+.projecttext{
     font-weight: 200;
     
 }
 
-.project-img{
-    width:100%;
+.projectimg{
+    width:80%;
     object-fit: cover;
 }
 
-/* CONTACT SECTION */
-.contact-container{
+
+.contactcontainer{
     margin-top: 80px;
 }
-.contact-title{
+.contacttitle{
     color: #EC4067;
     font-weight: 500;
 }
@@ -356,16 +356,16 @@ p.bottom{
     display: flex;
  
 }
-.contact-menu{
+.contactmenu{
     display: flex;
     align-items: center;
 }
-.contact-link{
+.contactlink{
     text-decoration: none;
     color: #EC4067;
 }
 
-/* FOOTER SECTION */
+
 .footer{
     margin-top: 40px;
     background-color: #F5F5F7;
@@ -374,11 +374,11 @@ p.bottom{
     align-items: center;
     justify-content: center;
 }
-.footer-text{
-    font-weight: 300;
+.footertext{
+    font-weight: 200;
 }
 a{
-    text-decoration:none !important;
+    
     color: black;
     
 }
