@@ -182,7 +182,7 @@ p.bottom{
 }
 
 
-/* STORIES SECTION */
+
 
 .stories-info{
     display: flex;
@@ -217,7 +217,7 @@ p.bottom{
     font-weight: 300;
 }
 /* BOARD SECTION */
-.board-container{
+.board_container{
     position: relative;
 }
 .board-top-span{
