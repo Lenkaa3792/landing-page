@@ -60,11 +60,11 @@ li:hover{
     background-color: red;
     transform: scale(1.1 1.5s ease);
 }
-.colored{
+.h1color{
     color: #EC4067;
 
 }
-/* ABOUT SECTION */
+
 .about{
     display: flex;
     align-items: center;
