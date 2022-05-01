@@ -123,7 +123,7 @@ p.bottom{
     border:2px solid #EC4067;
     transform: scale(1.1 1.5s ease);
 }
-
+/* SECTION CSS */
 .section-top-text{
     font-size: 12px;
     font-weight: 300;
@@ -182,7 +182,7 @@ p.bottom{
 }
 
 
-
+/* STORIES SECTION */
 
 .stories-info{
     display: flex;
@@ -190,7 +190,7 @@ p.bottom{
     
     
 }
-.scontainer{
+.stories-container{
     position: relative;
 }
 .stories-info .section-top-text{
@@ -216,7 +216,7 @@ p.bottom{
     font-size:12px;
     font-weight: 300;
 }
-
+/* BOARD SECTION */
 .board-container{
     position: relative;
 }
