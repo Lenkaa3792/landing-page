@@ -93,7 +93,7 @@ p.bottom{
     font-weight:300 ;
     width: 80%;
 }
-.about-first-button{
+.first_button{
     background-color: #EC4067;
     color: white;
     padding: 8px 20px;
@@ -104,11 +104,11 @@ p.bottom{
     font-weight: 300;
     
 }
-.about-first-button:hover{
+.first_button:hover{
     background-color: red;
     transform: scale(1.1 1.5s ease);
 }
-.about-second-button{
+.second_button{
     color: #EC4067;
     background-color: white;
     padding: 8px 28px;
@@ -118,7 +118,7 @@ p.bottom{
     font-weight: 300;
     margin:10px ;
 }
-.about-second-button:hover{
+.second_button:hover{
     
     border:2px solid #EC4067;
     transform: scale(1.1 1.5s ease);
