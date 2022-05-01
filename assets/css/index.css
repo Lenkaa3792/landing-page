@@ -241,13 +241,13 @@ p.bottom{
     font-weight: 300;
 }
 /* GRADUATION SECTION */
-.graduation-container{
+.graduation_container{
     position: relative;
 }
 /* MENTOR SECTION */
-.mentors-section{
+.mentors{
     margin-top: 50px;
-    overflow: hidden;
+    
     
 }
 .mentors-section .section-top-text{
@@ -266,32 +266,31 @@ p.bottom{
     
 }
 
-.mentor-info-title{
+.mentor_title{
     /* display: flex; */
     position: relative;
 }
-.mentor-img{
+.mentor_img{
     width: 100%;
     object-fit: cover;
     border-radius: 2px;
 }
-.mentor-name{
+.mentor_name{
     color:white;
     position: absolute;
     bottom: 0;
     left: 0;
 }
-.mentor-role{
+.mentor_role{
     color: #EC4067;
 }
-.mentor-button{
+.mentor_button{
     background-color: #EC4067;
     color: white;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 300;
     margin:10px 0;
 
